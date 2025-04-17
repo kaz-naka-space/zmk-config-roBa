@@ -67,13 +67,11 @@
 
         default_layer {
             bindings = <
-&kp Q                      &kp W   &kp E   &kp R                  &kp T                                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A                      &kp S   &kp D   &kp F                  &kp G        &kp LS(LG(S))                &kp MINUS                   &kp H        &kp J  &kp K      &kp L    &kp ENTER
-&kp Z                      &kp X   &kp C   &kp V                  &kp B        &kp COLON                    &kp SEMICOLON               &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LEFT_SHIFT LEFT_SHIFT  &trans  &trans  &mt LEFT_WIN LEFT_WIN  &lt 1 SPACE  &mt LEFT_CONTROL DELETE      &lt_to_layer_0 2 BACKSPACE  &lt 4 SPACE                             &lt_to_layer_0 5 ESCAPE
+&kp Q                      &kp W   &kp E   &kp R                  &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A                      &kp S   &kp D   &kp F                  &kp G        &kp LS(LG(S))                &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp ENTER
+&kp Z                      &kp X   &kp C   &kp V                  &kp B        &kp COLON                    &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT LEFT_SHIFT  &trans  &trans  &mt LEFT_WIN LEFT_WIN  &lt 1 SPACE  &mt LEFT_CONTROL DELETE      &lt 2 BACKSPACE  &lt 4 SPACE                             &lt 5 ESCAPE
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         NUM {
@@ -101,8 +99,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE_ARROW {
