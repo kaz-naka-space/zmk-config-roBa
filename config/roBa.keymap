@@ -82,10 +82,10 @@
 
         default_layer {
             bindings = <
-&kp Q                      &kp W   &kp E   &kp R                  &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A                      &kp S   &kp D   &kp F                  &kp G        &kp LS(LG(S))                &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp ENTER
-&kp Z                      &kp X   &kp C   &kp V                  &kp B        &kp COLON                    &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LEFT_SHIFT LEFT_SHIFT  &trans  &trans  &mt LEFT_WIN LEFT_WIN  &lt 1 SPACE  &mt LEFT_CONTROL DELETE      &lt 2 BACKSPACE  &lt 3 SPACE                             &lt 5 ESCAPE
+&kp Q           &kp W   &kp E   &kp R         &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S   &kp D   &kp F         &kp G        &kp LS(LG(S))                &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp ENTER
+&kp Z           &kp X   &kp C   &kp V         &kp B        &kp COLON                    &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &trans  &trans  &kp LEFT_WIN  &lt 1 SPACE  &mt LEFT_CONTROL DELETE      &lt 2 BACKSPACE  &lt 3 SPACE                             &lt 5 ESCAPE
             >;
         };
 
@@ -121,7 +121,7 @@
 &to_layer_0 Q           &to_layer_0 W  &to_layer_0 E  &to_layer_0 R         &to_layer_0 T                                             &to_layer_0 U      &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
 &to_layer_0 A           &to_layer_0 S  &to_layer_0 D  &to_layer_0 F         &to_layer_0 G  &none                     &none            &to_layer_0 J      &to_layer_0 J  &to_layer_0 K  &to_layer_0 L  &to_layer_0 ENTER
 &to_layer_0 Z           &to_layer_0 X  &to_layer_0 C  &to_layer_0 V         &to_layer_0 B  &none                     &none            &to_layer_0 M      &to_layer_0 M  &mkp MB1       &mkp MB2       &to_layer_0 SLASH
-&to_layer_0 LEFT_SHIFT  &none          &none          &to_layer_0 LEFT_WIN  &lt 1 SPACE    &mt LEFT_CONTROL DEL      &lt 2 BACKSPACE  &to_layer_0 SPACE                                               &to_layer_0 ESCAPE
+&to_layer_0 LEFT_SHIFT  &none          &none          &to_layer_0 LEFT_WIN  &lt 1 SPACE    &mt LEFT_CONTROL DEL      &lt 2 BACKSPACE  &to_layer_0 SPACE                                               &lt 5 ESCAPE
             >;
         };
 
@@ -134,7 +134,7 @@
             >;
         };
 
-        layer_6 {
+        BLUETOOTH {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
