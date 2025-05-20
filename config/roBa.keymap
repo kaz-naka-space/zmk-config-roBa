@@ -102,10 +102,10 @@
 
         NUM {
             bindings = <
-&kp LC(SPACE)    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp N9           &kp MINUS                      &kp PLUS      &trans  &trans  &trans  &trans
-&kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH  &none       &none   &kp ASTERISK  &trans  &trans  &trans  &trans
-&trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp N3           &kp EQUAL  &none       &none   &kp PERCENT   &trans  &trans  &trans  &trans
-&trans           &trans           &trans           &trans           &trans     &trans      &trans  &trans                                &trans
+&kp LC(SPACE)  &kp N7  &kp N8  &kp N9  &kp MINUS                      &kp PLUS      &trans  &trans  &trans  &trans
+&kp N0         &kp N4  &kp N5  &kp N6  &kp SLASH  &none       &none   &kp ASTERISK  &trans  &trans  &trans  &trans
+&trans         &kp N1  &kp N2  &kp N3  &kp EQUAL  &none       &none   &kp PERCENT   &trans  &trans  &trans  &trans
+&trans         &trans  &trans  &trans  &trans     &trans      &trans  &trans                                &trans
             >;
         };
 
