@@ -74,10 +74,10 @@
 
         NUM {
             bindings = <
-&kp LC(SPACE)  &kp N7  &kp N8  &kp N9  &kp MINUS                      &kp PLUS      &trans  &trans    &trans    &trans
-&kp N0         &kp N4  &kp N5  &kp N6  &kp SLASH  &none       &none   &kp ASTERISK  &trans  &trans    &trans    &trans
-&trans         &kp N1  &kp N2  &kp N3  &kp EQUAL  &none       &none   &kp PERCENT   &trans  &mkp MB1  &mkp MB2  &trans
-&trans         &trans  &trans  &trans  &trans     &trans      &trans  &trans                                    &trans
+&kp LC(SPACE)  &kp N7  &kp N8  &kp N9  &kp KP_MINUS                      &kp KP_PLUS      &trans  &trans    &trans    &trans
+&kp N0         &kp N4  &kp N5  &kp N6  &kp KP_SLASH  &none       &none   &kp KP_ASTERISK  &trans  &trans    &trans    &trans
+&trans         &kp N1  &kp N2  &kp N3  &kp EQUAL     &none       &none   &kp PERCENT      &trans  &mkp MB1  &mkp MB2  &trans
+&trans         &trans  &trans  &trans  &trans        &trans      &trans  &trans                                       &trans
             >;
         };
 
@@ -92,10 +92,10 @@
 
         ARROW_FUNCTIONS {
             bindings = <
-&kp TAB  &kp F7  &kp F8  &kp F9  &kp F10                           &kp LC(KP_PLUS)  &kp HOME        &kp UP_ARROW    &kp END          &kp LS(LG(S))
-&trans   &kp F4  &kp F5  &kp F6  &kp F11       &none       &none   &kp LC(MINUS)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &kp F1  &kp F2  &kp F3  &kp F12       &none       &none   &trans           &trans          &trans          &trans           &trans
-&trans   &trans  &trans  &trans  &kp LEFT_ALT  &trans      &trans  &trans                                                            &trans
+&kp TAB  &kp F7  &kp F8  &kp F9  &kp F10                           &kp LC(KP_PLUS)   &kp HOME        &kp UP_ARROW    &kp END          &kp LS(LG(S))
+&trans   &kp F4  &kp F5  &kp F6  &kp F11       &none       &none   &kp LC(KP_MINUS)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &kp F1  &kp F2  &kp F3  &kp F12       &none       &none   &trans            &trans          &trans          &trans           &trans
+&trans   &trans  &trans  &trans  &kp LEFT_ALT  &trans      &trans  &trans                                                             &trans
             >;
         };
 
