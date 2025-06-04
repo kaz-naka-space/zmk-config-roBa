@@ -36,7 +36,6 @@
         //        <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
         //        <&macro_tap>,
         //        <&sl 6>;
-
         //    label = "MKP_EXIT_AML";
         //};
     };
@@ -93,10 +92,10 @@
 
         ARROW_FUNCTIONS {
             bindings = <
-&kp TAB  &kp F7  &kp F8  &kp F9  &kp F10                           &kp LC(PLUS)   &kp HOME        &kp UP_ARROW    &kp END          &kp LS(LG(S))
-&trans   &kp F4  &kp F5  &kp F6  &kp F11       &none       &none   &kp LC(MINUS)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &kp F1  &kp F2  &kp F3  &kp F12       &none       &none   &trans         &trans          &trans          &trans           &trans
-&trans   &trans  &trans  &trans  &kp LEFT_ALT  &trans      &trans  &trans                                                          &trans
+&kp TAB  &kp F7  &kp F8  &kp F9  &kp F10                           &kp LC(KP_PLUS)  &kp HOME        &kp UP_ARROW    &kp END          &kp LS(LG(S))
+&trans   &kp F4  &kp F5  &kp F6  &kp F11       &none       &none   &kp LC(MINUS)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &kp F1  &kp F2  &kp F3  &kp F12       &none       &none   &trans           &trans          &trans          &trans           &trans
+&trans   &trans  &trans  &trans  &kp LEFT_ALT  &trans      &trans  &trans                                                            &trans
             >;
         };
 
