@@ -116,5 +116,14 @@
 &trans  &trans  &trans  &trans  &trans  &trans           &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
+
+        symboltest {
+            bindings = <
+&trans      &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&kp LS(N2)  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
     };
 };
