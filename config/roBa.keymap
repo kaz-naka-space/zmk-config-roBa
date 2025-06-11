@@ -74,19 +74,19 @@
 
         NUM {
             bindings = <
-&kp LC(SPACE)  &kp N7  &kp N8  &kp N9  &kp MINUS                         &kp KP_PLUS      &trans  &trans    &trans    &trans
-&kp N0         &kp N4  &kp N5  &kp N6  &kp KP_SLASH  &none       &none   &kp KP_ASTERISK  &trans  &trans    &trans    &trans
-&trans         &kp N1  &kp N2  &kp N3  &kp EQUAL     &none       &none   &kp PERCENT      &trans  &mkp MB1  &mkp MB2  &trans
-&trans         &trans  &trans  &trans  &trans        &trans      &trans  &trans                                       &trans
+&kp LC(SPACE)  &kp N7  &kp N8  &kp N9  &kp MINUS                          &kp KP_PLUS      &trans  &trans    &trans    &trans
+&kp N0         &kp N4  &kp N5  &kp N6  &kp KP_SLASH   &none       &none   &kp KP_ASTERISK  &trans  &trans    &trans    &trans
+&trans         &kp N1  &kp N2  &kp N3  &kp LS(MINUS)  &none       &none   &kp PERCENT      &trans  &mkp MB1  &mkp MB2  &trans
+&trans         &trans  &trans  &trans  &trans         &trans      &trans  &trans                                       &trans
             >;
         };
 
-        SYMBOL {
+        SYMBOL_JIS {
             bindings = <
-&kp EXCLAMATION  &kp QUESTION  &kp AMPERSAND  &kp PIPE              &kp LEFT_BRACE                            &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE   &kp CARET
-&kp AT_SIGN      &kp HASH      &kp DOLLAR     &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &none       &none   &kp RIGHT_PARENTHESIS  &trans             &trans            &kp COLON   &kp SEMICOLON
-&trans           &trans        &trans         &trans                &kp LEFT_BRACKET      &none       &none   &kp RIGHT_BRACKET      &kp UNDERSCORE     &kp COMMA         &kp PERIOD  &kp SLASH
-&trans           &trans        &trans         &trans                &trans                &trans      &trans  &trans                                                                  &trans
+&kp EXCLAMATION   &kp QUESTION  &kp CARET   &kp LS(INT_YEN)  &kp RIGHT_BRACE                        &kp PIPE       &kp AT_SIGN     &kp AMPERSAND  &kp LEFT_BRACE    &kp EQUAL
+&kp LEFT_BRACKET  &kp HASH      &kp DOLLAR  &kp INT_RO       &kp LS(N8)         &trans      &trans  &kp LS(N9)     &trans          &trans         &kp SINGLE_QUOTE  &kp SEMICOLON
+&trans            &trans        &trans      &trans           &kp RIGHT_BRACKET  &trans      &trans  &kp BACKSLASH  &kp LS(INT_RO)  &kp COMMA      &kp PERIOD        &kp SLASH
+&trans            &trans        &trans      &trans           &trans             &trans      &trans  &trans                                                          &trans
             >;
         };
 
@@ -117,12 +117,12 @@
             >;
         };
 
-        symboltest {
+        SYMBOL_US {
             bindings = <
-&kp EXCLAMATION   &kp QUESTION  &kp CARET   &kp LS(INT_YEN)  &kp RIGHT_BRACE                        &kp PIPE       &kp AT_SIGN     &kp AMPERSAND  &kp LEFT_BRACE    &kp EQUAL
-&kp LEFT_BRACKET  &kp HASH      &kp DOLLAR  &kp INT_RO       &kp LS(N8)         &trans      &trans  &kp LS(N9)     &trans          &trans         &kp SINGLE_QUOTE  &kp SEMICOLON
-&trans            &trans        &trans      &trans           &kp RIGHT_BRACKET  &trans      &trans  &kp BACKSLASH  &kp LS(INT_RO)  &kp COMMA      &kp PERIOD        &kp SLASH
-&trans            &trans        &trans      &trans           &trans             &trans      &trans  &trans                                                          &trans
+&kp EXCLAMATION  &kp QUESTION  &kp AMPERSAND  &kp PIPE              &kp LEFT_BRACE                            &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE   &kp CARET
+&kp AT_SIGN      &kp HASH      &kp DOLLAR     &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &none       &none   &kp RIGHT_PARENTHESIS  &trans             &trans            &kp COLON   &kp SEMICOLON
+&trans           &trans        &trans         &trans                &kp LEFT_BRACKET      &none       &none   &kp RIGHT_BRACKET      &kp UNDERSCORE     &kp COMMA         &kp PERIOD  &kp SLASH
+&trans           &trans        &trans         &trans                &trans                &trans      &trans  &trans                                                                  &trans
             >;
         };
     };
