@@ -119,10 +119,10 @@
 
         symboltest {
             bindings = <
-&kp EXCLAMATION   &kp QUESTION  &kp CARET   &kp INT_YEN  &kp RIGHT_BRACE                        &kp PIPE       &kp AT_SIGN     &kp AMPERSAND  &kp LEFT_BRACE    &kp EQUAL
-&kp LEFT_BRACKET  &kp HASH      &kp DOLLAR  &kp INT_RO   &kp LS(N8)         &trans      &trans  &kp LS(N9)     &trans          &trans         &kp SINGLE_QUOTE  &kp SEMICOLON
-&trans            &trans        &trans      &trans       &kp RIGHT_BRACKET  &trans      &trans  &kp BACKSLASH  &kp LS(INT_RO)  &kp COMMA      &kp PERIOD        &kp SLASH
-&trans            &trans        &trans      &trans       &trans             &trans      &trans  &trans                                                          &trans
+&kp EXCLAMATION   &kp QUESTION  &kp CARET   &kp LS(INT_YEN)  &kp RIGHT_BRACE                        &kp PIPE       &kp AT_SIGN     &kp AMPERSAND  &kp LEFT_BRACE    &kp EQUAL
+&kp LEFT_BRACKET  &kp HASH      &kp DOLLAR  &kp INT_RO       &kp LS(N8)         &trans      &trans  &kp LS(N9)     &trans          &trans         &kp SINGLE_QUOTE  &kp SEMICOLON
+&trans            &trans        &trans      &trans           &kp RIGHT_BRACKET  &trans      &trans  &kp BACKSLASH  &kp LS(INT_RO)  &kp COMMA      &kp PERIOD        &kp SLASH
+&trans            &trans        &trans      &trans           &trans             &trans      &trans  &trans                                                          &trans
             >;
         };
     };
