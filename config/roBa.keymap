@@ -62,7 +62,7 @@
 &kp LEFT_SHIFT  &lt 7 A  &trans  &kp LEFT_WIN  &lt 2 SPACE  &mt LEFT_CONTROL DELETE      &lt 3 BACKSPACE  &lt 4 SPACE                             &lt 5 ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         MOUSE {
