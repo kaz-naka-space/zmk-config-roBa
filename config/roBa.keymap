@@ -61,6 +61,8 @@
 &kp Z           &kp X    &kp C   &kp V         &kp B        &kp COLON                    &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_SHIFT  &lt 7 A  &trans  &kp LEFT_WIN  &lt 2 SPACE  &mt LEFT_CONTROL DELETE      &lt 3 BACKSPACE  &lt 4 SPACE                             &lt 5 ESCAPE
             >;
+
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         MOUSE {
@@ -115,6 +117,8 @@
 &trans  &none   &none   &none   &trans  &bootloader      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans           &trans       &trans                                                  &bt BT_CLR_ALL
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         SYMBOL_US {
