@@ -25,7 +25,7 @@
     mouse_transform {
         compatible = "zmk,mouse-transform";
         /* 横方向(x軸)の動きが悪いので1.5倍で動作させる */
-        scale-x = <150>;
+        scale-x = <200>;
         scale-y = <100>;
     };
 };
