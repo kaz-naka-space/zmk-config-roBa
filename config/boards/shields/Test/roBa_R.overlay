@@ -21,7 +21,7 @@
 
     };
 
-    /* Perixトラックボール用 */
+    /* COROPIT × Perixトラックボール用 */
     mouse_transform {
         compatible = "zmk,mouse-transform";
         /* 横方向(x軸)の動きが悪いので1.5倍で動作させる */
@@ -65,7 +65,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        //automouse-layer = <1>;
+        /* automouse-layer = <1>; */
         scroll-layers = <5>;
     };
 };
