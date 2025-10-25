@@ -20,6 +20,15 @@
         device = <&trackball>;
 
     };
+
+    /* トラックボールの感度・スケーリング設定 */
+    mouse_transform {
+        compatible = "zmk,mouse-transform";
+
+        /* 横方向(X軸)を1.5倍、縦方向(Y軸)は等倍 */
+        scale-x = <300>;   /* 100 が等倍、300 で 3倍 */
+        scale-y = <100>;   /* 100 が等倍 */
+    };
 };
 
 &pinctrl {
