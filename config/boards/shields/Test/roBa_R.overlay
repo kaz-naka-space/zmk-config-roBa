@@ -59,13 +59,12 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         /* automouse-layer = <1>; */
         scroll-layers = <5>;
-    };
-};
 
-&trackball {
-    mouse_transform {
-        compatible = "zmk,mouse-transform";
-        scale-x = <150>;
-        scale-y = <100>;
+        /* トラックボール専用の感度設定 */
+        mouse_transform {
+            compatible = "zmk,mouse-transform";
+            scale-x = <150>;   /* 横方向 1.5倍 */
+            scale-y = <100>;   /* 縦方向 1倍 */
+        };
     };
 };
