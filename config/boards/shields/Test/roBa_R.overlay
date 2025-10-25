@@ -21,7 +21,7 @@
 
     };
 
-    # Perixトラックボール用
+    /* Perixトラックボール用 */
     mouse_transform {
         compatible = "zmk,mouse-transform";
         scale-x = <150>;
