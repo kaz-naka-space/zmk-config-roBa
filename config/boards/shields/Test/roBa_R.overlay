@@ -61,3 +61,11 @@
         scroll-layers = <5>;
     };
 };
+
+&trackball {
+    mouse_transform {
+        compatible = "zmk,mouse-transform";
+        scale-x = <150>;
+        scale-y = <100>;
+    };
+};
